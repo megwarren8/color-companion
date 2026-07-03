@@ -1,0 +1,6 @@
+# Serve Color Companion at the site root so color-companion-warren.netlify.app
+# opens the tool directly. The file keeps its readable name for the repo.
+[[redirects]]
+  from = "/"
+  to = "/color-companion.html"
+  status = 200
