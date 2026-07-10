@@ -1,6 +1,8 @@
-# Serve Color Companion at the site root so color-companion-warren.netlify.app
-# opens the tool directly. The file keeps its readable name for the repo.
+# Color Companion now lives at color.megan-warren.com (Cloudflare Pages). This
+# repo's old Netlify site (color-companion-warren.netlify.app) forwards here
+# so any old bookmark or shared link still lands in the right place.
 [[redirects]]
-  from = "/"
-  to = "/color-companion.html"
-  status = 200
+  from = "/*"
+  to = "https://color.megan-warren.com/:splat"
+  status = 301
+  force = true
