@@ -1,7 +1,7 @@
 {
   "name": "Color Companion",
   "short_name": "Color Companion",
-  "description": "Your library of colors — sorted, searched, and seen by hue.",
+  "description": "Your library of colors, sorted, searched, and seen by hue.",
   "start_url": "./color-companion.html",
   "display": "standalone",
   "background_color": "#100f0e",
